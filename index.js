@@ -31,10 +31,10 @@ const startSock = () => {
         const msg = m. messages[0];
 
         if (!msg.key.fromMe && m.type === 'notify') {
-            console.log(msg);
+        //    console.log(msg);
             console.log ("No. HP : "+msg.key.remoteJid);
             console.log ("No. HP : "+msg.pushName);
-            console.log ("Pesan  : "+msg.message.conversation);
+        //    console.log ("Pesan  : "+msg.message.conversation);
             if (msg.key.remoteJid.includes('@s.whatsapp.net')) {
                 if (msg.message) {
                     if (msg.message.conversation == 'TagihanPJJ') {

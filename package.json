@@ -8,15 +8,17 @@
     "start": "nodemon index.js"
   },
   "nodemonConfig": {
-    "ignore": ["auth.json"]
+    "ignore": [
+      "auth.json"
+    ]
   },
-  
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
     "@whiskeysockets/baileys": "^6.5.0",
     "axios": "^1.2.1",
+    "baileys": "^6.0.9",
     "nodemon": "^3.0.1",
     "qrcode-terminal": "^0.12.0"
   }
